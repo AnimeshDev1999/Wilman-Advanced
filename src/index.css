@@ -21,4 +21,10 @@
   .footer-container-base {
     @apply xs:px-10 sm:px-20 md:px-20 lg:px-20 xl:px-20 2xl:px-20 p-10 grid gap-10 bg-slate-700 text-sm grid-cols-1;
   }
+  .text-field {
+    @apply rounded-md px-2;
+  }
+  .add-field {
+    @apply rounded-md px-2 w-80;
+  }
 }
