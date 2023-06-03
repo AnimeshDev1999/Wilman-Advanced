@@ -5,7 +5,7 @@ import Purpose from "./Purpose";
 
 const GridBox = () => {
   return (
-    <div className="grid m-5 gap-5 grid-cols-2">
+    <div className="grid m-5 gap-5 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
       <About></About>
       <Stats></Stats>
       <Features></Features>

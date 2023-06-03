@@ -1,6 +1,6 @@
 const Login = () => {
   return (
-    <div className="bg-WPurple1 m-5 mt-28 mb-14 pb p-10 rounded-lg w-max mx-auto">
+    <div className="bg-WPurple1 m-5 mt-28 mb-14 pb p-10 rounded-lg xs:w-full sm:w-max md:w-max lg:w-max xl:w-max 2xl:w-max mx-auto">
       <h2 className="text-3xl mb-10">Welcome to Wilman Advanced</h2>
       <form
         action=""

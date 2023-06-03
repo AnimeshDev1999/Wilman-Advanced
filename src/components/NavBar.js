@@ -2,7 +2,7 @@ import logo from "../images/logoAlpha.png";
 
 const NavBar = (props) => {
   return (
-    <div className="fixed mt-5 top-0 left-0 w-full flex justify-between items-center px-10 py-5">
+    <div className="fixed mt-5 top-0 left-0 w-full xs:hidden sm:flex md:flex lg:flex xl:flex 2xl:flex justify-between items-center sm:px-5 md:px-10 lg:px-10 xl:px-10 2xl:px-10 sm:py-0 md:py-5 lg:py-5 xl:py-5 2xl:py-5 ">
       <img
         src={logo}
         className="h-14 bg-[rgba(255,255,255,0.75)] rounded-md"

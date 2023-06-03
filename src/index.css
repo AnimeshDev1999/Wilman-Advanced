@@ -9,6 +9,9 @@
     @apply text-slate-800;
     font-family: "Lato", sans-serif;
   }
+  body {
+    overflow-x: hidden;
+  }
   .nav-btn {
     @apply hover:text-WGold;
   }
@@ -26,5 +29,15 @@
   }
   .add-field {
     @apply rounded-md px-2 w-80;
+  }
+  .nav-css:before {
+    position: absolute;
+    content: "Menu";
+    top: 1rem;
+    left: -1rem;
+    rotate: -90deg;
+  }
+  .active-nav {
+    right: 0 !important;
   }
 }

@@ -25,9 +25,9 @@ const Features = () => {
   ];
 
   return (
-    <div className="p-5 bg-WGold1 rounded-md flex justify-center items-center">
+    <div className="p-5 bg-WGold1 rounded-md grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 justify-center items-center">
       {data.map((item) => (
-        <div className="w-1/5 flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           <img src={item.ico} className="h-16 w-16 mb-3" alt="" />
           <h3 className="text-xl mb-1 font-semibold">{item.name}</h3>
           <p className="text-sm text-center">{item.text}</p>

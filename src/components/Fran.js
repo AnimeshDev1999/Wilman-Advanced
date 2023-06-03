@@ -23,7 +23,7 @@ const Fran = (props) => {
     <div className=" pt-28 pb-10 px-10 rounded-lg flex flex-col gap-10">
       {franData.map((item) => (
         <div className="bg-gradient-to-l from-WGold1 border-2 border-slate-200 py-5 px-10 rounded-md flex justify-between items-center">
-          <div className="w-1/2">
+          <div className="xs:w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2">
             <h2 className="text-3xl mb-4">{item.name}</h2>
             <p className="mb-4">{item.text}</p>
             <button
@@ -33,7 +33,11 @@ const Fran = (props) => {
               {item.btn}
             </button>
           </div>
-          <img className="h-60" src={atm} alt="" />
+          <img
+            className="xs:hidden sm:block md:block lg:block xl:block 2xl:block h-60"
+            src={atm}
+            alt=""
+          />
         </div>
       ))}
     </div>
